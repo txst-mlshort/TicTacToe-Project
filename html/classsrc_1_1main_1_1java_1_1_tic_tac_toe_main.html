@@ -103,29 +103,29 @@ Static Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>    {</div>
-<div class="line"><span class="lineno">   35</span>        TicTacToeModel model = <span class="keyword">new</span> TicTacToeModel();</div>
-<div class="line"><span class="lineno">   36</span>        TicTacToeView view = <span class="keyword">null</span>;</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">   38</span>        {</div>
-<div class="line"><span class="lineno">   39</span>            view = <span class="keyword">new</span> TicTacToeView();</div>
-<div class="line"><span class="lineno">   40</span>        }</div>
-<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">catch</span> (IOException e)</div>
-<div class="line"><span class="lineno">   42</span>        {</div>
-<div class="line"><span class="lineno">   43</span>            e.printStackTrace();</div>
-<div class="line"><span class="lineno">   44</span>            System.exit(-1);</div>
-<div class="line"><span class="lineno">   45</span>        }</div>
-<div class="line"><span class="lineno">   46</span> </div>
-<div class="line"><span class="lineno">   47</span>        @SuppressWarnings(<span class="stringliteral">&quot;unused&quot;</span>)</div>
-<div class="line"><span class="lineno">   48</span>        TicTacToeController controller = new TicTacToeController(model, view);</div>
-<div class="line"><span class="lineno">   49</span> </div>
-<div class="line"><span class="lineno">   50</span>        JFrame frame = new JFrame(<span class="stringliteral">&quot;Tic Tac Toe&quot;</span>);</div>
-<div class="line"><span class="lineno">   51</span>        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);</div>
-<div class="line"><span class="lineno">   52</span>        frame.getContentPane().add(view.getMainPanel());</div>
-<div class="line"><span class="lineno">   53</span>        frame.pack();</div>
-<div class="line"><span class="lineno">   54</span>        frame.setLocationByPlatform(true);</div>
-<div class="line"><span class="lineno">   55</span>        frame.setVisible(true);</div>
-<div class="line"><span class="lineno">   56</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        TicTacToeModel model = <span class="keyword">new</span> TicTacToeModel();</div>
+<div class="line"><span class="lineno">   35</span>        TicTacToeView view = <span class="keyword">null</span>;</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            view = <span class="keyword">new</span> TicTacToeView();</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">catch</span> (IOException e)</div>
+<div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            e.printStackTrace();</div>
+<div class="line"><span class="lineno">   43</span>            System.exit(-1);</div>
+<div class="line"><span class="lineno">   44</span>        }</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        @SuppressWarnings(<span class="stringliteral">&quot;unused&quot;</span>)</div>
+<div class="line"><span class="lineno">   47</span>        TicTacToeController controller = new TicTacToeController(model, view);</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        JFrame frame = new JFrame(<span class="stringliteral">&quot;Tic Tac Toe&quot;</span>);</div>
+<div class="line"><span class="lineno">   50</span>        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);</div>
+<div class="line"><span class="lineno">   51</span>        frame.getContentPane().add(view.getMainPanel());</div>
+<div class="line"><span class="lineno">   52</span>        frame.pack();</div>
+<div class="line"><span class="lineno">   53</span>        frame.setLocationByPlatform(true);</div>
+<div class="line"><span class="lineno">   54</span>        frame.setVisible(true);</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -156,15 +156,15 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   59</span>    {</div>
-<div class="line"><span class="lineno">   60</span>        SwingUtilities.invokeLater(<span class="keyword">new</span> Runnable()</div>
-<div class="line"><span class="lineno">   61</span>        {</div>
-<div class="line"><span class="lineno">   62</span>            <span class="keyword">public</span> <span class="keywordtype">void</span> run()</div>
-<div class="line"><span class="lineno">   63</span>            {</div>
-<div class="line"><span class="lineno">   64</span>                createAndShowGui();</div>
-<div class="line"><span class="lineno">   65</span>            }</div>
-<div class="line"><span class="lineno">   66</span>        });</div>
-<div class="line"><span class="lineno">   67</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span>        SwingUtilities.invokeLater(<span class="keyword">new</span> Runnable()</div>
+<div class="line"><span class="lineno">   60</span>        {</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keyword">public</span> <span class="keywordtype">void</span> run()</div>
+<div class="line"><span class="lineno">   62</span>            {</div>
+<div class="line"><span class="lineno">   63</span>                createAndShowGui();</div>
+<div class="line"><span class="lineno">   64</span>            }</div>
+<div class="line"><span class="lineno">   65</span>        });</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

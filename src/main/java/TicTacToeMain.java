@@ -10,14 +10,13 @@ import javax.swing.*;
  *  @date       Dec 4, 2025
  *
  *  <dl>
- *       <dt>Course</dt><dd>CS 3354 Object Oriented Design and Programming</dd><BR>
+ *       <dt>Course</dt><dd>CS 3354 Object Oriented Design and Programming</dd><BR><BR>
  *       <dt>Instructor</dt><dd>Dr. Alberto Castro-Hernandez</dd>
  *  </dl>
  *
  *  <b>Assignment:</b>
- *  ==================
- *  @see https://canvas.txstate.edu/courses/2495146/assignments/39476428
- *  @see https://canvas.txstate.edu/courses/2495146/files/375703617?wrap=1
+ *       * <I>see:</I> https://canvas.txstate.edu/courses/2495146/assignments/39476428
+ *       * <I>see:</I> https://canvas.txstate.edu/courses/2495146/files/375703617?wrap=1
  *
  *  <b>Cite:</b>
  *       * Hovercraft Full Of Eels (Apr 2014). <I>Hello I am creating a TicTacToe game for myself to understand Java better.</I> stackoverflow .<BR>
