@@ -21,4 +21,4 @@ Directory Structure
     └── Doxyfile
 ```
 
-* [Internal Source Code Documentation](https://mlshort.github.io/TicTacToe-Project/html)
+* [Internal Source Code Documentation](https://txst-mlshort.github.io/TicTacToe-Project/html)
